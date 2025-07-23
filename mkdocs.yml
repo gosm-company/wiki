@@ -1,1 +1,28 @@
 site_name: gosm-company
+site_url: https://w.gosm.company
+repo_url: https://github.com/gosm-company/wiki
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.top
+
+not_in_nav: |
+  /index.md
+  /en/
+
+# extra:
+#   alternate:
+#     - name: "English"
+#       link: "/en/"
+#       lang: "en"
+#     - name: "한국어"
+#       link: "/ko/"
+#       lang: "ko"
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
